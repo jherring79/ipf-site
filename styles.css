@@ -98,7 +98,7 @@ section{padding:88px 0}
 .prow:last-child{border-bottom:none}
 .prow.rev .pimg{order:-1}
 .prow h2{font-size:30px;margin:12px 0 14px}
-.prow p{color:var(--muted);font-size:16px}
+.prow p{color:var(--muted);font-size:16px;margin:0 0 14px}
 .pimg{background:linear-gradient(160deg,var(--surface-2),var(--surface));border:1px solid var(--line);border-radius:16px;min-height:240px;display:flex;align-items:center;justify-content:center;color:var(--muted-2);padding:30px}
 .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
 .chip{font-size:13px;color:var(--muted);border:1px solid var(--line-2);border-radius:20px;padding:6px 13px}
