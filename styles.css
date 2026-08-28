@@ -120,8 +120,8 @@ section{padding:88px 0}
 .prow h2{font-size:30px;margin:12px 0 14px}
 .prow p{color:var(--muted);font-size:16px;margin:0 0 14px}
 .pimg{background:linear-gradient(160deg,var(--surface-2),var(--surface));border:1px solid var(--line);border-radius:16px;min-height:240px;display:flex;align-items:center;justify-content:center;color:var(--muted-2);padding:30px;overflow:hidden}
-.pimg.photo{padding:0}
-.pimg.photo img{width:100%;height:100%;object-fit:cover;border-radius:16px}
+.pimg.photo{padding:0;display:block;min-height:0;background:transparent}
+.pimg.photo img{width:100%;height:auto;border-radius:16px}
 .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
 .chip{font-size:13px;color:var(--muted);border:1px solid var(--line-2);border-radius:20px;padding:6px 13px}
 .chip b{color:var(--text);font-weight:500}
@@ -173,7 +173,7 @@ table.spec tbody tr:hover{background:rgba(94,166,245,.045)}
 
 /* FIGURE / proof photo */
 .figure{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:var(--surface)}
-.figure img{width:100%;height:auto;max-height:560px;object-fit:cover;object-position:50% 45%}
+.figure img{width:100%;height:auto}
 .figure figcaption{padding:16px 22px;font-size:13.5px;color:var(--muted);border-top:1px solid var(--line)}
 
 /* FAQ */
