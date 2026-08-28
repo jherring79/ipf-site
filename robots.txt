@@ -1,4 +1,53 @@
+# https://www.ipfiltration.com/
+# All crawlers, including AI agents and assistants, are welcome on the whole site.
+
 User-agent: *
 Allow: /
+
+# Explicitly allowed AI crawlers and assistant user agents.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+# Machine-readable company and product summary:
+# https://www.ipfiltration.com/llms.txt
 
 Sitemap: https://www.ipfiltration.com/sitemap.xml
