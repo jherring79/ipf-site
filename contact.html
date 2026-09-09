@@ -232,6 +232,10 @@
     var payload = {};
     new FormData(form).forEach(function (v, k) { payload[k] = v; });
     payload.page_url = window.location.href;
+    // HubSpot visitor cookie - lets the CRM tie this inquiry to the pages
+    // the visitor already looked at. Absent until the tracking code has run.
+    var hutk = document.cookie.match(/(?:^|;\s*)hubspotutk=([a-f0-9]{32})/i);
+    if (hutk) payload.hutk = hutk[1];
 
     var label = btn.textContent;
     btn.disabled = true;
